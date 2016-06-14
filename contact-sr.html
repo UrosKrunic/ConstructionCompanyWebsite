@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+	<title>Main - Ikar d.o.o. Valjevo</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta property="og:site_name" content="Ikar d.o.o. Valjevo"/>
+	<meta property="og:title" content="Ikar d.o.o. Valjevo"/>
+	<meta property="og:description" content="Ikar d.o.o. makes building equipment"/>
+	<meta name="description" content="A firm for the production of the metallic goods, building equipment and international transportation">
+	<link rel="stylesheet" type="text/css"	href="css/stylesheet.css">	
+</head>
+<body>
+
+	<div class="bar">
+		<div class="bar__wrapper">
+			<div class="bar__wrapper__right">
+				<div class="bar__wrapper__right__button">
+					<button type="button" class="languages-button">LANGUAGE</button>
+				</div>
+				<div class="bar__wrapper__right__font-awesome">
+					<i class="fa fa-envelope"></i><a class="bar-links" href="mailto:ikar10@verat.net">ikar10@verat.net</a>	
+				</div>
+				<div class="bar__wrapper__right__font-awesome">
+					<i class="fa fa-phone"></i><a class="bar-links" href="tel:+381 14 238 078">381.14.238.078</a>
+				</div>
+				<div class="bar__wrapper__right__languages">
+					<ul class="list-languages">
+						<li class="list-item-languages"><a class="languages-links" href="home.html">English</a></li>
+						<li class="list-item-languages"><a class="languages-links" href="#">Serbian</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<header>
+		<div class="header-wrap clearfix">
+			<div class="logo">
+				<a class="logo__link" href="#">Ikar d.o.o.</a>
+			</div>
+			<nav class="header-nav">	
+				<ul class="header-nav__list">
+					<li class="header-nav__list__item"><a class="header-links" href="home-sr.html">POČETNA STRANA</a></li>
+					<li class="header-nav__list__item"><a class="header-links" href="products-sr.html">PROIZVODI</a></li>
+					<li class="header-nav__list__item"><a class="header-links" href="catalogue-sr.html">KATALOG</a></li>
+					<li class="header-nav__list__item"><a class="header-links" href="#">KONTAKT</a></li>
+				</ul>
+			</nav>
+		</div>			
+	</header>
+
+	<section>
+		<div class="page-title">
+			<div class="page-title__container">
+				<h1 class="page-title__primary">Kontaktirajte Nas</h3>
+				<h3 class="page-title__secondary">Stupite u kontakt sa nama</h5>
+			</div>
+		</div>
+
+		<div id="map"></div>
+
+		<div class="contact-section">
+			<div class="contact-wrap clearfix">
+				<div class="contact-form">
+					<div class="contact-form__content">
+						<form actioon="ajax/contact.php" method="post" class="ajax">
+							<h4 class="contact-headings">Kontaktirajte nas</h4> <br>
+							<label class="contact-form__content__labels" for="name">Vaše ime </label> 
+							<input type="text" class="contact-form__content__elements" name="name"> <br>
+							<label class="contact-form__content__labels" for="email">Vaš email </label> 
+							<input type="text" class="contact-form__content__elements" name="email"> <br>
+							<label class="contact-form__content__labels" for="message">Vaša poruka </label> 
+							<textarea class="contact-form__content__elements contact-form__content--textarea"
+							 name="message" rows="4"></textarea> <br>
+							<input class="contact-form__content__btn" type="submit" value="SEND MESSAGE"/>
+						</form>
+					</div>	
+				</div>
+				<div class="contact-info">
+					<div class="contact-info__content">
+						<h4 class="contact-headings">Kontakt informacije</h4> <br>
+						<i class="fa fa-home"></i><b>Ikar d.o.o.</b><br>
+						<p>Pančićeva 12</p> 
+						<p>14000 Valjevo</p> <br>
+						<i class="fa fa-phone"></i><b>381-14-238-078</b><br>
+						<i class="fa fa-fax"></i><b>381-14-220-783</b><br>
+						<i class="fa fa-envelope"></i><a class="contact-links" href="mailto:ikar10@verat.net">ikar10@verat.net</a>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<nav class="footer-nav">
+			<ul class="footer-nav__list">
+				<li class="footer-nav__list__item"><a class="footer-links" href="home-sr.html">Početna Strana</a></li>
+				<li class="footer-nav__list__item"><a class="footer-links" href="products-sr.html">Proizvodi</a></li>
+				<li class="footer-nav__list__item"><a class="footer-links" href="catalogue-sr.html">Katalog</a></li>
+				<li class="footer-nav__list__item"><a class="footer-links" href="#">Kontakt</a></li>
+			</ul>
+		</nav>	
+		<div class="footer-par">
+			<p>Copyright &copy Ikar d.o.o. 2016</p>	
+		</div>	
+	</footer>
+
+	<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<script src="https://use.fontawesome.com/8ad869b6c2.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlyjFfmCLAec9LePR3Dz7bgeeJZs6CDHM&callback=initMap"
+    async defer></script>
+	
+</body>
+</html>

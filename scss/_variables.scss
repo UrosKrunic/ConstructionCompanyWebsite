@@ -1,0 +1,49 @@
+$darkGrey: #212121;
+$lightGrey: #D3D2D2;
+$yellow: #DC9914;
+$fontColorDark: #222222;
+$fontColorMedium: #888888;
+$fontColorLight: #C8C7C7;
+$fontColorLight2: #A5A3A3;
+$blue: #0D91FF;
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; 
+     -moz-box-sizing: $box-model; 
+          box-sizing: $box-model;
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+       url('../fonts/Roboto-Regular.woff') format('woff'),
+       url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+       url('../fonts/Roboto-Bold.woff') format('woff'),
+       url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+       url('../fonts/OpenSans-Regular.woff') format('woff'),
+       url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Medium Condensed';
+  src: url('../fonts/Futura-Medium-Condensed.woff2') format('woff2'),
+       url('../fonts/Futura-Medium-Condensed.woff') format('woff'),
+       url('../fonts/Futura-Medium-Condensed.ttf') format('truetype');
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
