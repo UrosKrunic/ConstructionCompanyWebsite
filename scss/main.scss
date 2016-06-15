@@ -56,7 +56,8 @@ a{
 					padding: 11px;
 					margin-left: 40px;
 					color: $yellow;
-					font-family: "Open Sans", Arial, Helvetica, sans-serif;
+					font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
+					font-size: 15px;
 					cursor: pointer;
 				}
 			}
@@ -190,7 +191,7 @@ header{
 				margin-left: 30px;
 
 				.header-links {
-					font-family: "Montserrat", Arial, Helvetica, sans-serif;
+					font-family: "Hind", Arial, Helvetica, sans-serif;
 					text-rendering: optimizeLegibility;
 					font-size: 14px;
 					color: $fontColorMedium;
@@ -388,17 +389,14 @@ footer {
 				&__list {
 					display: block;
 					float: none;
+					margin-top: -2px;
 
 					&__item {
 						display: block;
 						float: none;
 						width: 100%;
 						margin: 0px;
-						padding: 5px 0px;
-
-						.header-links {
-							
-						}
+						padding: 3px 0px;
 					}
 				}
 			}

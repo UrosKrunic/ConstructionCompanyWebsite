@@ -1,7 +1,6 @@
 @import "variables";
 
 // .container-wrap element wraps .container element and adds background color.
-
 .container-wrap {
 	background-color: black;
 }
@@ -63,10 +62,10 @@
 					width: 100%;
 					height: 220px;
 					background-color: #DCDBDB;
-					transition: all 500ms ease;
+					transition: all 300ms ease;
 					
 					&:hover {
-						opacity: 0.75;
+						opacity: 0.8;
 					}
 
 					&__img {
@@ -77,8 +76,6 @@
 						
 						&:hover {
 							cursor: pointer;
-
-
 						}
 					}
 				}
@@ -87,9 +84,9 @@
 					padding: 30px 0 20px 0;
 					height: 100px;
 					background-color: #FBFAFA;
-					font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+					font-family: 'Roboto Bold', Arial, Helvetica, sans-serif;
 					text-rendering: optimizeLegibility;				
-					color: #333333;
+					color: #444444;
 					text-align: center;
 					line-height: 1.4em;
 				}

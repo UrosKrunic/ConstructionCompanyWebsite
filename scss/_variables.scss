@@ -27,20 +27,13 @@ $blue: #0D91FF;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
-       url('../fonts/OpenSans-Regular.woff') format('woff'),
-       url('../fonts/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'Futura Medium Condensed';
   src: url('../fonts/Futura-Medium-Condensed.woff2') format('woff2'),
        url('../fonts/Futura-Medium-Condensed.woff') format('woff'),
        url('../fonts/Futura-Medium-Condensed.ttf') format('truetype');
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Hind:700&subset=latin,latin-ext);
 
   .clearfix:after {
     content: "";
